@@ -11,4 +11,8 @@
 |
 */
 
+
 Route::get('/catalog', 'CatalogController@viewCatalog' );
+
+Route::get('/panier', 'PanierController@viewPanier');
+
