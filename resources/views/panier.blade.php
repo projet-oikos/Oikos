@@ -16,7 +16,7 @@
     <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Oikos</a>
+            <a class="navbar-brand" href="#">Oikos</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item m-auto">
-                        <a class="nav-link" href="index.html">Accueil</a>
+                        <a class="nav-link" href="#">Accueil</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="category.html">Categories</a>
+                        <a class="nav-link" href="#">Categories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="product.html">Produits</a>
+                        <a class="nav-link" href="#">Produits</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
 
@@ -77,7 +77,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                            <td><img class="img-product" src="{{asset('img/bob/bob2.jpg')}}" /> </td>
                             <td>Product Name Dada</td>
                             <td>En Stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
@@ -96,7 +96,7 @@
                             <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
                             <td>Product Name Titi</td>
                             <td>En Stock</td>
-                            <td><input class="form-control" type="text" value="1" /></td>
+                            <td><input  class="form-control" type="text" value="1" /></td>
                             <td class="text-right">70,00 €</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
