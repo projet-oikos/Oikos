@@ -14,6 +14,7 @@
 
     </head>
     <body>
+
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Oikos</a>
@@ -76,37 +77,25 @@
                         </tr>
                         </thead>
                         <tbody>
+                        @foreach($panier as $product)
+
                         <tr>
-                            <td><img class="img-product" src="{{asset('img/bob/bob2.jpg')}}" /> </td>
-                            <td>Product Name Dada</td>
+                            <td><img class="img-product" src="{{$product['image']}}" /> </td>
+                            <td>{{$product['nom']}}</td>
                             <td>En Stock</td>
                             <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">124,90 €</td>
+                            <td class="text-right">{{$product['prix']}}</td>
                             <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                         </tr>
-                        <tr>
-                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                            <td>Product Name Toto</td>
-                            <td>En stock</td>
-                            <td><input class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">33,90 €</td>
-                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
-                        </tr>
-                        <tr>
-                            <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                            <td>Product Name Titi</td>
-                            <td>En Stock</td>
-                            <td><input  class="form-control" type="text" value="1" /></td>
-                            <td class="text-right">70,00 €</td>
-                            <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
-                        </tr>
+
+                        @endforeach
                         <tr>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td>Total HT</td>
-                            <td class="text-right">255,90 €</td>
+                            <td class="text-right">{{$total_ht}} €</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -114,7 +103,7 @@
                             <td></td>
                             <td></td>
                             <td>Livraison</td>
-                            <td class="text-right">6,90 €</td>
+                            <td class="text-right">{{$livraison}} €</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -122,7 +111,7 @@
                             <td></td>
                             <td></td>
                             <td>TVA</td>
-                            <td class="text-right">51.18 €</td>
+                            <td class="text-right">{{$total_tva}} €</td>
                         </tr>
                         <tr>
                             <td></td>
@@ -130,7 +119,7 @@
                             <td></td>
                             <td></td>
                             <td><strong>Total</strong></td>
-                            <td class="text-right"><strong>313.98 €</strong></td>
+                            <td class="text-right"><strong>{{$total}} €</strong></td>
                         </tr>
                         </tbody>
                     </table>
