@@ -12,4 +12,19 @@
 */
 
 
+Route::get('/catalog', 'CatalogController@viewCatalog' );
+
 Route::get('/panier', 'PanierController@viewPanier');
+
+
+Route::get('/header', function () {
+    return view('header_oikos');
+});
+
+Route::get('/footer', function () {
+    return view('footer_oikos');
+});
+
+Route::get('/layout', function () {
+    return view('layout');
+});
