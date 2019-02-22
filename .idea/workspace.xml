@@ -1,18 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f13253e-4857-45bd-a171-319c52f26560" name="Default Changelist" comment="" />
+    <list default="true" id="3f13253e-4857-45bd-a171-319c52f26560" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/database/allProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/aerogarden/aerogarden-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/aerogarden/aerogarden-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/aerogarden/aerogarden-03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/aerogarden/aerogarden-04.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/altered/altered-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/altered/altered-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/altered/altered-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/altered/altered-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/altered/altered-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/Bob_mini_lave_vaisselle_noir_noir_Daan_Tech_small_countertop_dishwasher_Made_in_France_machine_a_laver_270px.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/bob-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/bob2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/bob3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/bob4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/boba++.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/bobcuisine2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/bobcuivsine.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/bob/video/Bob_mini_lave_vaisselle_small_dishwasher_Made_In_France_Daan_Tech.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/1. Nebia Spa Shower full spray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/2E0A6500 w 501 cmb rtn v6 optn 6 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/2E0A6500 w 501 cmb rtn v6 optn 7 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/2E0A6515 cmb v11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/2E0A6515 cmb v11a copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/2E0A6530 v5 optn 1 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Black Matte straight on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia 2.0 Matte Black side.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia 2.0 black side spray.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia 2.0 black straght on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Shelf Matte Black angle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Shelf Matte Black face on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Shelf Matte Silver angle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Shelf on grey wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower Matte Black Vertical.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower Matte Black face on white tiles.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower Wide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower face on.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower from an angle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower from below.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/Nebia Spa Shower full spray grey.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/nebia-black-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nebia/nebia-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nest/NEST.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nest/nest-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nest/nest-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nest/nest-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nest/nest-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/nest/nest-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/qrad/qrad-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/qrad/qrad-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/qrad/qrad-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/qrad/qrad-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/qrad/qrad-slide-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/qrad/qrad-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/solargaps/solargap-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/solargaps/solargap-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/solargaps/solargap-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/solargaps/solargpas-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/towergarden/towergarden-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/towergarden/towergarden-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/towergarden/towergarden-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/towergarden/towergarden-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/towergarden/towergarden-slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/zera/zera-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/zera/zera-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/zera/zera-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/zera/zera-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/zera/zera-slide.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="303" selection-start-line="10" selection-start-column="303" selection-end-line="10" selection-end-column="303" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/allProduct.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/product.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#252#442#2" expanded="true" />
+                <element signature="e#480#670#2" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/allProduct.php" />
+        <option value="$PROJECT_DIR$/public/css/product.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/resources/views/product.blade.php" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -105,7 +233,7 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="732" />
     <option name="y" value="101" />
     <option name="width" value="1400" />
@@ -117,27 +245,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="projet_oikos" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet_oikos" type="462c0819:PsiDirectoryNode" />
+              <item name="Oikos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oikos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oikos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oikos" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oikos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oikos" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Oikos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Oikos" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laravel5\Oikos\public\img\bob" />
+      <recent name="C:\laravel5\Oikos\public\img" />
+      <recent name="C:\laravel5\Oikos" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -168,24 +322,22 @@
       <option name="presentableId" value="Default" />
       <updated>1550750588816</updated>
       <workItem from="1550750590000" duration="649000" />
+      <workItem from="1550751890091" duration="11209000" />
+      <workItem from="1550822731186" duration="23650000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="649000" />
+    <option name="totallyTimeSpent" value="35508000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -193,13 +345,122 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15492958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1146">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.example">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:////192.168.88.254/partage-cna01/Promo 2020/Dossier individuel Etudiant/JPML/PHP/TUTO/demo.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="103" column="8" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="103" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/allProduct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/product.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#252#442#2" expanded="true" />
+            <element signature="e#480#670#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="303" selection-start-line="10" selection-start-column="303" selection-end-line="10" selection-end-column="303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
