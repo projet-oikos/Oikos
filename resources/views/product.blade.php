@@ -1,17 +1,6 @@
-<!doctype html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">                                                             <!-- INSERT BOOTSTRAP -->
-    <link rel="stylesheet" href="{{asset('css/product.css')}}">                                                         <!-- INSERT CSS -->
-    <meta name="language" content="Fr">
+@extends ('layout')
 
-
-    <title>Product</title>
-</head>
-<body>
+@section ('content')
 <div class="container">
     <h1>{{$product['nom']}}</h1>
 
@@ -92,9 +81,7 @@
     </div>
 
 </div>
+</div>
     <script src="{{asset('js/app.js')}}" crossorigin="anonymous"></script>
     <script src="{{asset('js/bootstrap.js')}}" crossorigin="anonymous"></script>      <!-- SCRIPT JAVA BOOTSTRAP -->
-    <!-- SCRIPT JAVA BOOTSTRAP -->
-</body>
-</html>
-
+@endsection
