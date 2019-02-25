@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/footer.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/navbar.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{asset('css/catalog.css')}}">
 
 
     <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
