@@ -83,12 +83,6 @@
                     <p>{{$avisClient['avis']}}</p>
                     <small class="text-muted">Posté par . {{$avisClient['nomClient']}} le . {{$avisClient['date']}}</small>
                     <hr>
-                    <p>{{$avisClient['avis']}}</p>
-                    <small class="text-muted">Posté par . {{$avisClient['nomClient']}} le . {{$avisClient['date']}}</small>
-                    <hr>
-                    <p>{{$avisClient['avis']}}</p>
-                    <small class="text-muted">Posté par . {{$avisClient['nomClient']}} le . {{$avisClient['date']}}</small>
-                    <hr>
                 </div>
             </div>
         </div>
