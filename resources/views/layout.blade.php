@@ -11,6 +11,10 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/navbar.css')}}">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
+
+    <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('css/clement.css')}}" rel="stylesheet" type="text/css">
+    <!-- Styles -->
 </head>
 
 <body>

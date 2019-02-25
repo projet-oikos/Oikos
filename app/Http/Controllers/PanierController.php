@@ -17,17 +17,31 @@ class PanierController extends Controller
             array('nom' => 'Solargaps', 'prix' => 179, 'image' => asset('img/solargaps/solargap-01.jpg'), 'accroche' => 'Stores à énergie solaire', 'description' => 'Ces stores intelligents suivent automatiquement le soleil et sont facilement contrôlablent grâce à votre smartphone, Google Home et Amazon Alexa.'),
             array('nom' => 'towergarden', 'prix' => 250, 'image' => asset('img/towergarden/towergarden-01.jpg'), 'accroche' => 'Jardin d\'interieur', 'description' => 'Tours aéroponiques permettants de faire pousser des fruits, des légumes, des herbes fines, ou des fleurs en utilisant 95 % moins d’eau par rapport aux cultures en terre.'),
             array('nom' => 'zera', 'prix' => 200, 'image' => asset('img/zera/zera-01.jpg'), 'accroche' => 'Poubelle composte', 'description' => 'Composter depuis sa cuisine, c\'est désormais possible ! Cet objet cache un ingénieux système capable d\'accélérer le processus de façon spectaculaire. Zera élimine les déchets en seulement 24h et de manière écologique'),
-        );  $temp = 0;
-        $total_ht = 0;
+        );
+
         $livraison = 6.90;
         $tva = 1.2;
 
+        $totauxPanier = $this->calculPanier($panier, $livraison, $tva);
+
+        return view('panier', ['panier'=> $panier, 'total' => $totauxPanier['total'], 'total_ht'=> $totauxPanier['total_ht'], 'livraison' => $livraison, 'total_tva'=> $totauxPanier['total_tva']]);
+    }
+
+    public function calculPanier($panier, $livraison, $tva) {
+        $temp = 0;
+        $total_ht = 0;
+
         for ($i = 0 ; $i < count($panier); $i++) {
-                $total_ht = $panier[$i]['prix'] + $temp;
-                $temp = $total_ht;
+            $total_ht = $panier[$i]['prix'] + $temp;
+            $temp = $total_ht;
         }
         $total = ($total_ht + $livraison)*$tva;
         $total_tva = ($total_ht + $livraison)*0.20;
-        return view('panier', ['panier'=> $panier, 'total' => $total, 'total_ht'=> $total_ht, 'livraison' => $livraison, 'total_tva'=> $total_tva]);
+
+        return ['total' => $total, 'total_tva' => $total_tva, 'total_ht' => $total_ht];
+    }
+
+    public function updatePanier() {
+        request('quantity');
     }
 }
