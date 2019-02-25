@@ -28,3 +28,5 @@ Route::get('/footer', function () {
 Route::get('/layout', function () {
     return view('layout');
 });
+
+Route::get('/product','ProductController@viewProduct');
